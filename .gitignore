@@ -1,0 +1,4 @@
+node_modules/
+dist/
+server/publications.json
+.DS_Store

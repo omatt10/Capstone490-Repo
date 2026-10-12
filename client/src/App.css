@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6f8; color: #1d2330; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
+h1 { margin: 0 0 4px; color: #73000a; }
+h2 { margin: 0 0 12px; font-size: 1.1rem; }
+.stats { color: #555; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip { background: #e8e9ee; border-radius: 999px; padding: 2px 10px; font-size: 0.8rem; }
+.card { background: #fff; border-radius: 10px; padding: 16px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.08); display: grid; gap: 8px; }
+.row { display: grid; grid-template-columns: 1fr 2fr; gap: 8px; }
+input, select { padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; font: inherit; width: 100%; }
+button { padding: 8px 14px; border: 0; border-radius: 6px; background: #73000a; color: #fff; font: inherit; cursor: pointer; }
+button.delete { background: transparent; color: #a00; border: 1px solid #e3b3b3; }
+.filters { display: grid; grid-template-columns: 2fr 1.5fr 1fr; gap: 8px; margin-bottom: 12px; }
+.pubs { list-style: none; padding: 0; display: grid; gap: 8px; }
+.pubs li { background: #fff; border-radius: 8px; padding: 12px 14px; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.meta { color: #666; font-size: 0.9rem; margin-top: 4px; }
+.error { color: #a00; margin: 0; }
+.empty { color: #777; }
+a { color: #73000a; }
